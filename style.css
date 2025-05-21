@@ -1,0 +1,41 @@
+body {
+  background-color: black;
+  font-family: "Orbitron", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clock {
+  color: #ff3d03;
+  font-size: 80px;
+  letter-spacing: 70px;
+}
+
+@media (max-width: 1024px) {
+    .clock {
+        font-size: 8em;
+        margin-top: 25%;
+    }
+}
+
+@media (max-width: 768px) {
+    .clock {
+        font-size: 3em;
+        margin-top: 30%;
+    }
+}
+
+@media (max-width: 480px) {
+    .clock {
+        font-size: 3em;
+        margin-top: 40%;
+    }
+}
+
+@media (max-width: 320px) {
+    .clock {
+        font-size: 2.5em;
+        margin-top: 40%;
+    }
+}
